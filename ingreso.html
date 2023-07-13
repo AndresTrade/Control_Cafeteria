@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en, es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Lato:ital,wght@0,400;0,900;1,700&family=Righteous&family=Work+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <title>Bienvenido a ControlCafetería</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+        <div class="menu">
+            <img src="C:\Users\V&M Investing\Documents\Control Cafeteria\Logoc.png" alt="Logo Corporativo">
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Cargar">Cargar Saldo</a></li>
+                <li><a href="#Consumo">Ver Consumo y Compras </a></li>
+                <li><button onclick="gotoSalida(this)" value="C:\Users\V&M Investing\Documents\Control Cafeteria\login.html">Cerrar Sesión</button>
+            </ul>
+        </div>
+
+            <div class="contenido">
+                <div class="inicio" >
+                    <p id="Inicio">
+                        Bienvenido al portar de Control de Cafetería. Actualmente estamos trabajando en nuevos modulos para ofrecerle un mejor servicio
+                        y esperamos poder brindarle la mejor experiencia. Desde aqui usted podrá tener el cotrol sobre los alimentos
+                        que el estudiante esta consumiento y asi tener un mejor control sobre su ingesta. Tambien tendra acceso a
+                        los costos de los productos que la cafetería esta ofreciendo. <br><br> Lleve un control eficaz de su dinero.
+                    </p>
+                </div>
+
+                <div class="CargarSaldo" id="Cargar">
+                    <h1 class="tittleRecarga">Recargue el saldo deseado; Semanal, quincenal o mensualmente</h1>
+                    <form class="cargar" name="formulario">
+                        <input class="input" type="text" name="Código del estudiante" placeholder="Código del estudiante">
+                        <input class="input" type="number" name="Monto" placeholder="Monto deseado">
+                        <input class="inputb" type="button" onclick="alert('Estamos Trabajando para Resolverlo')" value="Enviar">
+                    </form>
+                </div>
+
+                        <div class="consumo" id="Consumo">
+                            <h1 class="tittleConsumo">Vea el consumo y compras realizadas</h1>
+                            <form class="cargar2" name="formulario">
+                                <input class="input2" type="text" name="Código del estudiante" placeholder="Código del estudiante">
+                                <input class="inputb" type="button" onclick="alert('Estamos Trabajando para Resolverlo')" value="Ver Consumo">
+                                <input class="inputb" type="button" onclick="alert('Estamos Trabajando para Resolverlo')" value="Ver Items">
+                            </form>
+                        </div>
+            </div>
+
+
+    <footer>
+        <h2 class="fin">Esta es una maquetación de la primer versión de prueba para el sistema de Control de Cafetería Escolar. <br><br>Elaborado por Andres Vargas, ficha 2627108</h2>
+    </footer>
+
+    
+</body>
+</html>

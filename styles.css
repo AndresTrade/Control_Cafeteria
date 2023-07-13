@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.login  {
+    background-color: white;
+    border: solid 3px red;
+    border-radius: 15%  ;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;;
+}
+
+img{
+    display: flex;
+    position: static;
+    margin: 20px auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 30px auto   ;
+}
+
+.usuario, .ingresar{
+    margin: 5px auto;
+    border: solid 1px black;
+}
